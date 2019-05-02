@@ -1,0 +1,17 @@
+<table summary="{{downloadData.chart}} Data Table" class="table table-hover table-responsive">
+    <thead>
+        <tr>
+        {{#each downloadData.headers}}
+            <th tabindex="0" scope="col">{{this}}</th>
+        {{/each}}
+    </thead>
+    <tbody>
+    {{#each downloadData.rows as |row|}}  
+    <tr>
+        {{#each row}}
+            <td name="{{@key}}" aria-label="{{@key}} value is {{this}}" tabindex="0" class="table-content-align">{{this}}</td>   
+        {{/each}} 
+    </tr>
+    {{/each}} 
+    </tbody>
+</table>

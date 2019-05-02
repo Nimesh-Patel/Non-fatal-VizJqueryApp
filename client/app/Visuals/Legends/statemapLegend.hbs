@@ -1,0 +1,22 @@
+{{#each legends}}
+    {{#if isClickable}}
+        <button class="legend-item" role="button" data-map-legend-name="{{name}}" data-map-legend-palette="{{palette}}" tabindex="0">
+            <div class="legend-color-box" style="background-color:{{color}}"></div>
+            <div class="legend-value">{{name}}</div>
+        </button>
+    {{else}}
+        <div class="legend-item not-clickable" tabindex="0">
+            {{#if isPattern}}
+                <rect class="legend-color-box" style="background:{{color}}"></rect>
+            {{else}}
+                <div class="legend-color-box" style="background-color:{{color}}"></div>
+            {{/if}}
+            <div class="legend-value">{{name}}</div>
+        </div>
+    {{/if}}
+{{/each}}
+  
+<svg id="statemapLegend" class="legend"></svg>
+<div class="reset-legend-btn">
+    <button id="resetLegendBtn" role="button" class="btn btn-sm">RESET VIEW</button>
+</div>

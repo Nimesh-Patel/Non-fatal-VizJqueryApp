@@ -1,0 +1,14 @@
+{{#each causesOfInjury}}
+    {{#if this.showRemove}}
+    <div class="breadcrumb-item breadcrumb-item-coi" tabindex="0">
+        <span class="breadcrumb-content-coi">{{this.causesOfInjury}} Injuries</span>
+        <button aria-label="remove filter {{this.causeOfDeath}}" class="remove-breadcrumb" data-breadcrumb-type="coi" tabindex="0">
+            x</button>
+            
+    </div>
+    {{else}}
+    <div class="breadcrumb-item-no-shadow breadcrumb-item-default-no-shadow" tabindex="0">
+        <span class="breadcrumb-content-coi">{{this.causesOfInjury}}</span>
+    </div>
+    {{/if}}
+{{/each}}

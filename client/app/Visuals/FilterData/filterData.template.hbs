@@ -1,0 +1,38 @@
+<div aria-Label="Non Fatal Filter Data " class="modal-dialog">
+    <div class="modal-content" id="modal-content-filter-data-deaths" aria-labelledby="myModalLabel">
+        <div class="modal-header">
+            <button aria-label="close filter data modal  " id="closeFilterDataModal" type="button" data-dismiss="modal"
+                tabindex="0" class="close">x</button>
+            <h4 id="myModalLabel" class="modal-title">NONFATAL DATA FILTERS DASHBOARD</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./intent.component.hbs}}
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./mech.component.hbs}}
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./transportation.component.hbs}}
+                </div>
+            </div>
+
+            <div class="row marginTop10px">
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./disposition.component.hbs}}
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./sex.component.hbs}}
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    {{> ./age.component.hbs}}
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer footer-margin">
+            <button class="btn btn-default cancel" id="cancelFilterDataModal" type="button" data-dismiss="modal">CLOSE</button>
+            <button class="btn btn-primary" id="applyFilterDataFilters" type="button">APPLY FILTERS</button>
+        </div>
+    </div>
+</div>

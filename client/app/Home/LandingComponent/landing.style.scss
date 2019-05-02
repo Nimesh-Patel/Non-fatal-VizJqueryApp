@@ -1,0 +1,21 @@
+#landing-page-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-page-header {
+  background: url('../client/assets/images/wisqars_nonfatal_data_visualization_backsplash2.jpeg') center no-repeat;
+  background-size: cover;
+  font-family: 'Titillium Web', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-options-container {
+  min-height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

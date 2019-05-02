@@ -1,0 +1,50 @@
+<div id="sectionAge" class="card">
+    <h3 class="card_header">TRENDS BY AGE</h3>
+    <div class="card_content-container">
+        <div class="card_info">
+            <p>Data Source: NEISS All Injury Program operated by the Consumer Product Safety Commission for numbers of
+                injuries. Bureau of Census for population estimates.</p>
+            <p>Users can filter data by clicking on a chart or by selecting Filters from the Filter Data button when
+                using keyboard navigation.</p>
+        </div>
+        <div class="card_download-container">
+            <button class="btn btn-sm downloadData-button" role="button" data-chart="ageTrend">download data / image</button>
+        </div>
+        <div class="card_viz-options">
+            <div>
+                <label for="ageDropdown">
+                    <h6>Show As:</h6>
+                </label>
+                <select id="ageDropdown">
+                    <option value="injuries" selected>Number of Injuries</option>
+                    <option value="rate">Crude Rate</option>
+                </select>
+            </div>
+            <div>
+                <label for="ageTrendsViewOption">
+                    <h6>View As:</h6>
+                </label>
+                <select id="ageTrendsViewOption">
+                    <option value="graphic">Graphic</option>
+                    <option value="table">Table</option>
+                </select>
+            </div>
+            <div class="card_submit-container">
+                <button id="trendsAgeSubmitBtn" class="btn btn-sm submit-btn" role="button">submit</button>
+            </div>
+        </div>
+        <div class="card_legend-container">
+            <h6>Legend:</h6>
+            <div id="ageGroupTrendsLegend"></div>
+        </div>
+    </div>
+    <div class="card_viz-container" id='ageTrendViz'>
+        <h3 class="unstable-msg h3-header">*Injury estimate is unstable because of small sample size and/or CV > 30%.
+            Use with caution.</h3>
+        <div id="chartContainer_ageGroup" class="card_visual">
+            <svg id="ageTrend" alt="Age Trends" tabindex="0"></svg>
+            <div id="ageTrendTable" class="viz-table-view-container displayNone"></div>
+        </div>
+        <h4 class="suppresion-msg">Note: the range of values on the Y-axis is dynamic.</h4>
+    </div>
+</div>

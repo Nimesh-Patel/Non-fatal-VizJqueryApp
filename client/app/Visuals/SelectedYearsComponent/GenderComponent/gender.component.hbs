@@ -1,0 +1,52 @@
+<div id="sectionSex" class="card">
+    <h3 class="card_header">DISTRIBUTION BY SEX</h3>
+    <div class="card_content-container">
+        <div class="card_info">
+            <p>Data Source: NEISS All Injury Program operated by the Consumer Product Safety Commission for numbers of
+                injuries. Bureau of Census for population estimates.</p>
+            <p>Users can filter data by clicking on a chart or by selecting Filters from the Filter Data button when
+                using keyboard navigation.</p>
+        </div>
+        <div class="card_download-container">
+            <button class="btn btn-sm downloadData-button" role="button" data-chart="genderBar">download data / image</button>
+        </div>
+        <div class="card_viz-options">
+            <div>
+                <label for="genderDropdown">
+                    <h6>Show As:</h6>
+                </label>
+                <select id="genderDropdown">
+                    <option value="injuries" selected>Number of Injuries</option>
+                    <option value="rate">Crude Rate</option>
+                    <option value="ageadj">Age Adjusted Rate</option>
+                </select>
+            </div>
+            <div>
+                <label for="genderViewOption">
+                    <h6>View As:</h6>
+                </label>
+                <select id="genderViewOption">
+                    <option value="graphic">Graphic</option>
+                    <option value="table">Table</option>
+                </select>
+            </div>
+            <div class="card_submit-container">
+                <button id="genderSubmitBtn" class="btn btn-sm submit-btn" role="button">submit</button>
+            </div>
+        </div>
+        <div class="card_legend-container">
+            <h6>Legend:</h6>
+            <div id="genderBarLegend"></div>
+        </div>
+    </div>
+    <div class="card_viz-container">
+        {{!-- <h4 class="suppresion-msg">** indicates Unstable values (10 to 20 deaths), -- indicates Suppressed values
+            (9 or fewer)</h4> --}}
+        <div id="chartContainer_gender" class="card_visual">
+            <h3 class="unstable-msg h3-header">*Injury estimate is unstable because of small sample size and/or CV >
+                30%. Use with caution.</h3>
+            <svg id="genderBar" alt="Gender Bar Chart" tabindex="0" style="width: 80%"></svg>
+            <div id="genderTable" class="viz-table-view-container displayNone"></div>
+        </div>
+    </div>
+</div>

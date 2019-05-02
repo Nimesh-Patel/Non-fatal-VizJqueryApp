@@ -1,0 +1,46 @@
+.footer-container {
+  width: 100vw;
+  height: auto;
+  background: $cdc-blue;
+  color: $white;
+}
+
+.footer-wrapper {
+  max-width: 1500px;
+  width: auto;
+  min-height: 200px;
+  height: auto;
+  display: flex; //add in media query
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: auto;
+  height: auto;
+}
+
+.footer-cdc-logo {
+  height: 130px;
+  width: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.footer-links-container {
+  padding: 8px 85px 8px 20px;
+  width: 20%;
+}
+.footer-contact {
+  text-align: left;
+  padding: 8px 0 8px 5px;
+  color: #fff;
+}
+
+.footer-link a {
+  color: #fff;
+}
+
+.footer-link > a:hover {
+  color: #b5b5b5 !important;
+}

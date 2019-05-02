@@ -1,0 +1,80 @@
+  // *** LATO *** //
+  @font-face {
+    font-family: 'Lato-Black';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Black/Lato-Black.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Black/Lato-Black.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Black/Lato-Black.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Black/Lato-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Bold';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Bold/Lato-Bold.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Bold/Lato-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Bold/Lato-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Bold/Lato-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Hairline';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Hairline/Lato-Hairline.eot'), /* IE9 Compat Modes */
+         url('../client/assets/styles/fonts/Lato/Lato-Hairline/Lato-Hairline.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../client/assets/styles/fonts/Lato/Lato-Hairline/Lato-Hairline.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../client/assets/styles/fonts/Lato/Lato-Hairline/Lato-Hairline.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Heavy';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Heavy/Lato-Heavy.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Heavy/Lato-Heavy.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Heavy/Lato-Heavy.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Heavy/Lato-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: 'Lato-Italic';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Italic/Lato-Italic.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Italic/Lato-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Italic/Lato-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Italic/Lato-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Light';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Light/Lato-Light.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Light/Lato-Light.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Light/Lato-Light.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Light/Lato-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Medium';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Medium/Lato-Medium.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Medium/Lato-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Medium/Lato-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Medium/Lato-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Regular';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Regular/Lato-Regular.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Regular/Lato-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Regular/Lato-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Regular/Lato-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Thin';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Thin/Lato-Thin.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Thin/Lato-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Thin/Lato-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Thin/Lato-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato-Semibold';
+    src: url('../client/assets/styles/fonts/Lato/Lato-Semibold/Lato-Semibold.eot'), /* IE9 Compat Modes */
+          url('../client/assets/styles/fonts/Lato/Lato-Semibold/Lato-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Semibold/Lato-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+          url('../client/assets/styles/fonts/Lato/Lato-Semibold/Lato-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }

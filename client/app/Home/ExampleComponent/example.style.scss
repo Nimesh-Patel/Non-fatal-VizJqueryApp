@@ -1,0 +1,33 @@
+.example_container {
+    border: 1px solid $black;
+    padding: 20px 10px;
+    text-align: center;
+    color: $black;
+}
+
+.example_header {
+    font-size: 2em;
+    color: $black;
+}
+
+.example_example-partial-container {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid $green;
+    color: $green;
+}
+
+.example_example-container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid $red;
+    color: $red;
+}
+
+.example_example-data {
+    font-size: 1.5em;
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid $orange;
+    color: $orange;
+}

@@ -1,0 +1,57 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button id="closeDownloadModal" type="button" data-dismiss="modal" tabindex="0" class="close">x</button>
+      <h4 id="myModalLabel" class="modal-title">DOWNLOAD</h4>
+    </div>
+    <div class="modal-body">
+      <div id="panel-getMapTable" class="preview-table">
+        <h5 class="modal-subtitle">DATA PREVIEW</h5>
+        <table id="downloadTable" summary="{{downloadData.chart}} data preview table" class="table table-hover table-condensed marginTop20">
+          <thead>
+              <tr>
+              {{#each downloadData.headers}}
+                  <th tabindex="0" scope="col">{{this}}</th>
+              {{/each}}
+          </thead>
+          <tbody>
+            {{#each downloadData.rows as |row|}}  
+            <tr>
+              {{#each row}}
+                  <td tabindex="0" name="{{@key}}" aria-label="{{@key}} value is">{{this}}</td>   
+              {{/each}} 
+            </tr>
+            {{/each}} 
+          </tbody>
+        </table>
+      </div>
+      <div id="textMsg">
+        <h4 style="float:right">** indicates Unstable values (less than 20 injuries)</h4>
+      </div>
+      <div id="panel-getDownload" style="min-height:250px">
+        <h5 class="modal-subtitle marginTop20">DOWNLOADS</h5>
+        <div class="col-xs-12 marginTop10">
+          <div style="text-align:center;" class="col-xs-4">
+            <h6 class="subtitle download-data-subtitle">Data Table</h6>
+          </div>
+          <div style="text-align:center;" class="col-xs-4"></div>
+          <div style="text-align:center;" class="col-xs-4">
+            <h6 class="subtitle download-data-subtitle">Image</h6>
+          </div>
+        </div>
+        <div class="download-assets-container">
+          <div class="asset-container">
+             <input type="image" src="/client/assets/images/CSV.png" alt="CSV" data-chart-type={{downloadData.chart}} data-asset-type="CSV" tabindex="0" class="download-CSV download-asset-button"/>
+          </div> 
+          <div class="asset-container">
+            <input type="image" src="/client/assets/images/JPG.png" alt="JPG" data-chart-type="{{downloadData.chart}}" data-asset-type="JPG" tabindex="0" class="download-JPG download-asset-button"/>
+            <div class="ie-jpg-warning displayNone">JPG Download not available on Internet Explorer. Please use another browser.</div>
+          </div>
+          <div class="asset-container">
+            <input type="image" src="/client/assets/images/SVG.png" alt="SVG" data-chart-type="{{downloadData.chart}}" data-asset-type="SVG" tabindex="0" class="download-SVG download-asset-button"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

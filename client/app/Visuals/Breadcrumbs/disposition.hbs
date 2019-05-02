@@ -1,0 +1,15 @@
+{{#each dispositions}}
+    {{#if this.showRemove}}
+    <div class="breadcrumb-item" tabindex="0">
+        <span class="boldcrumb">Disposition:</span>
+        <span>{{this.disposition}}</span>
+        <button aria-label="remove filter {{this.disposition}}" class="remove-breadcrumb" data-disposition-name="{{this.disposition}}" data-disposition-id="{{this.dispositionId}}"  data-breadcrumb-type="disposition" tabindex="0">
+            x</button>
+    </div>
+    {{else}}
+    <div class="breadcrumb-item-no-shadow breadcrumb-item-default-no-shadow" tabindex="0">
+        <span class="boldcrumb">Disposition:</span>
+        <span class="breadcrumb-content">{{this.disposition}}</span>
+    </div>
+    {{/if}}
+{{/each}}

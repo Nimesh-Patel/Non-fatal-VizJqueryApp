@@ -1,0 +1,61 @@
+<div id="sectionTreemap" class="card">
+    <h3 class="card_header">CAUSES OF NONFATAL INJURY</h3>
+    <div class="card_content-container">
+        <div class="card_info">
+            <p style="color:#000 !important">For more information on a single cause of injury, select an element from
+                the diagram to the right to filter the rest of the dashboard.</p>
+            <p style="color:#000 !important">Hover over elements for details</p>
+            <p>Data Source: NEISS All Injury Program operated by the Consumer Product Safety Commission for numbers of
+                injuries. Bureau of Census for population estimates.</p>
+            <p>Users can filter data by clicking on a chart or by selecting Filters from the Filter Data button when
+                using keyboard navigation.</p>
+        </div>
+
+        <div class="card_download-container">
+            <button class="btn btn-sm downloadData-button" role="button" data-chart="treemap">download data / image</button>
+        </div>
+        <div class="card_viz-options">
+            <div>
+                <label for="treemapDropdown">
+                    <h6>Group By:</h6>
+                </label>
+                <select id="treemapDropdown">
+                    <option value="intent" selected>Intent</option>
+                    <option value="mech">Mechanism</option>
+                    {{!-- <option value="combo"></option> --}}
+                </select>
+            </div>
+            <div>
+                <label for="treemapViewOption">
+                    <h6>View As:</h6>
+                </label>
+                <select id="treemapViewOption">
+                    <option value="graphic">Graphic</option>
+                    <option value="table">Table</option>
+                </select>
+            </div>
+            <div id="treemapTransportationCard" class="card_info2">
+                <p>TRANSPORTATION RELATED INJURIES:</p>
+                <p>Did the injury occur on a public road or highway?</p>
+                <select id="transpRelatedOption">
+                    <option value="0">All Possibilities</option>
+                    <option value="2">Yes</option>
+                    <option value="6">No</option>
+                    <option value="8">Unknown</option>
+                </select>
+            </div>
+            <div class="card_submit-container">
+                <button id="treemapSubmitBtn" class="btn btn-sm submit-btn" role="button">submit</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="card_viz-container">
+        <h3 class="unstable-msg h3-header nf-treemap-msg">*Injury estimate is unstable because of small sample size
+            and/or CV > 30%. Use with caution.</h3>
+        <div id="chartContainer_treemap" class="card_visual">
+            <svg id="treemap" alt="Tree map Chart" tabindex="0" style="width: 80%"></svg>
+        </div>
+        <div id="treemapTable" class="viz-table-view-container displayNone"></div>
+    </div>
+</div>

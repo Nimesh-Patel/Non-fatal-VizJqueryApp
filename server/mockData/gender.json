@@ -1,0 +1,85 @@
+{
+	"responseCode": [
+	  "1",
+	  {
+		"responseData": [
+		  {
+			"Sexlbl": "Males",
+			"SEX": "1",
+			"injuries": 6868771,
+			"pop": 159078923,
+			"ageadj": 4364.64,
+			"numstratum": 5,
+			"PSU": 90,
+			"wt_c": 23527.33284,
+			"maxstratum": 5,
+			"mean": 5,
+			"twcnt": 0,
+			"records": 110246,
+			"twcnt1": 0,
+			"sumsq": 553535390.564,
+			"tsumsq": 0,
+			"n": 5,
+			"var": 211598107.492,
+			"totvar": 285693601171,
+			"stderr": 534503,
+			"cv": 0.078,
+			"rate": 4317.84,
+			"upper": 7916397,
+			"lower": 5821145
+		  },
+		  {
+			"Sexlbl": "Females",
+			"SEX": "2",
+			"injuries": 7169517,
+			"pop": 164048590,
+			"ageadj": 4150.63,
+			"numstratum": 5,
+			"PSU": 90,
+			"wt_c": 18676.21228,
+			"maxstratum": 5,
+			"mean": 5,
+			"twcnt": 0,
+			"records": 108802,
+			"twcnt1": 0,
+			"sumsq": 348800905.128,
+			"tsumsq": 0,
+			"n": 5,
+			"var": 171198102.732,
+			"totvar": 497898221562,
+			"stderr": 705619,
+			"cv": 0.098,
+			"rate": 4370.36,
+			"upper": 8552530,
+			"lower": 5786504
+		  },
+		  {
+			"Sexlbl": "Unknown",
+			"SEX": "3",
+			"injuries": 6,
+			"pop": null,
+			"ageadj": 0,
+			"numstratum": 5,
+			"PSU": 31,
+			"wt_c": 6.01876,
+			"maxstratum": 5,
+			"mean": 5,
+			"twcnt": 0,
+			"records": 1,
+			"twcnt1": 0,
+			"sumsq": 36.2254719376,
+			"tsumsq": 0,
+			"n": 5,
+			"var": 36.2254719376,
+			"totvar": 36.2254719376,
+			"stderr": 6,
+			"cv": 1,
+			"rate": null,
+			"upper": 18,
+			"lower": -6
+		  }
+		]
+	  }
+	]
+  }
+  

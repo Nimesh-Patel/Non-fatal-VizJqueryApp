@@ -1,0 +1,21 @@
+<div class="template-container selected-years-container">
+    <div class="template-wrapper">
+        <div id="nonFatalStatRibbon">
+            {{> ../statsRibbon.component.hbs}}
+        </div>
+        {{!-- <button id="advancedStatsBtn" role="button" class="btn-filter-data" tabindex="0">SHOW ADVANCED STATISTICS</button> --}}
+        <div id="nonFatalAdvancedStatRibbon">
+            {{> ../advancedStats.component.hbs}}
+        </div>
+
+        {{> ../SelectedYearsComponent/TreemapComponent/treemap.component}}
+        {{> ../SelectedYearsComponent/DispositionComponent/disposition.component}}
+        {{> ../SelectedYearsComponent/GenderComponent/gender.component}}
+        {{> ../SelectedYearsComponent/AgeComponent/age.component}}
+        {{> ../SelectedYearsComponent/RaceComponent/race.component}}
+    </div>
+</div>
+{{!-- Download Modal for every Application --}}
+
+<div id="modal-nonFatalDownloadDataModal" role="dialog" data-backdrop="static" class="modal fade"></div>
+<div id="modal-nonFalaFilterDataModal" role="dialog" data-backdrop="static" class="modal fade"></div>

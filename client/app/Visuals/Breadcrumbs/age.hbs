@@ -1,0 +1,13 @@
+{{#if ages.showRemove}}
+<div class="breadcrumb-item" tabindex="0">
+    <span class="boldcrumb">Age Range:</span> 
+    <span>{{ages.agegroup}}</span>
+    <button aria-label="remove filter {{ages.agegroup}}" class="remove-breadcrumb" data-breadcrumb-type="age" tabindex="0">
+            x</button>
+</div>
+{{else}}
+<div class="breadcrumb-item-no-shadow breadcrumb-item-default-no-shadow" tabindex="0">
+    <span class="boldcrumb">Age Range:</span> 
+    <span class="breadcrumb-content">{{ages.agegroup}}</span>
+</div>
+{{/if}}

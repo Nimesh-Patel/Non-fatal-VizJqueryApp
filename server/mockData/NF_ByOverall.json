@@ -1,0 +1,32 @@
+{
+  "responseCode": [
+    "1",
+    {
+      "responseData": [
+        {
+          "injuries": 14038294,
+          "pop": 323127513,
+          "ageadj": 4278.13,
+          "numstratum": 5,
+          "PSU": 90,
+          "wt_c": 42203.54512,
+          "maxstratum": 5,
+          "mean": 5,
+          "twcnt": 0,
+          "records": 219049,
+          "twcnt1": 0,
+          "sumsq": 1781139220.7,
+          "tsumsq": 0,
+          "n": 5,
+          "var": 761989000.303,
+          "totvar": 1.50456733303e+12,
+          "stderr": 1226608,
+          "cv": 0.087,
+          "rate": 4344.51,
+          "upper": 16442446,
+          "lower": 11634142
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<nav class="main-nav">
+  <div class="nav-container">
+    <a href="/">
+      <div class="nav-logo-container">
+        <img class="cdc-white-logo" src="{{virtualPath}}/client/assets/images/masthead_subpage.svg" alt="CDC logo small">
+        <img class="wisqars-logo" src="{{virtualPath}}/client/assets/images/WISQARS-Header-Logo.svg" alt="WISQARS Header Logo">
+      </div>
+    </a>
+    <div class="nav-button-container">
+      <a href="/">
+        <div class="nav-button active-nav-tab shutter-out-horizontal">
+          Explore Nonfatal Data
+        </div>
+      </a>
+      <a href="/about-data" data-navigo class="displayNone">
+        <div class="nav-button shutter-out-horizontal" data-nav-id="AboutData">
+          About Data
+        </div>
+      </a>
+    </div>
+  </div>
+</nav>
+{{> app.filter-nav.component.hbs}}

@@ -1,0 +1,50 @@
+
+
+[{
+	"dispId" : 0,
+	"dispName": "All Cases",
+	"injuryCount": 30888063,
+	"population": 316204908,
+	"crudeRate": 9768.37,
+	"ageAdjustedRate": 9873.84
+},
+{
+	"dispId" : 1,
+	"dispName": "Treated and Released",
+	"injuryCount": 27028247,
+	"population": 316204908,
+	"crudeRate": 8547.70,
+	"ageAdjustedRate": 8691.64
+},
+{
+	"dispId" : 2,
+	"dispName": "Transferred",
+	"injuryCount": 514026,
+	"population": 316204908,
+	"crudeRate": 162.56,
+	"ageAdjustedRate": 162.30
+},
+{
+	"dispId" : 3,
+	"dispName": "Transferred or Hospitalized",
+	"injuryCount": 3005772,
+	"population": 316204908,
+	"crudeRate": 950.58,
+	"ageAdjustedRate": 911.92
+},
+{
+	"dispId" : 4,
+	"dispName": "Hospitalized",
+	"injuryCount": 2491746,
+	"population": 316204908,
+	"crudeRate": 788.02,
+	"ageAdjustedRate": 749.63
+},
+{
+	"dispId" : 5,
+	"dispName": "Observed/Left AMA/Unknown",
+	"injuryCount": 854044,
+	"population": 316204908,
+	"crudeRate": 270.09,
+	"ageAdjustedRate": 270.27
+}]

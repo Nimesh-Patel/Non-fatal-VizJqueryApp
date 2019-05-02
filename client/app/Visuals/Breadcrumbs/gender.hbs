@@ -1,0 +1,15 @@
+{{#each genders}}
+    {{#if this.showRemove}}
+    <div class="breadcrumb-item" tabindex="0">
+        <span class="boldcrumb">Gender:</span>
+        <span>{{this.sex}}</span>
+        <button  aria-label="remove filter {{this.sex}}" class="remove-breadcrumb" data-sex-name="{{this.sex}}" data-sex-id="{{this.sexId}}" data-breadcrumb-type="sex" tabindex="0">
+        x</button>
+    </div>
+    {{else}}
+    <div class="breadcrumb-item-no-shadow breadcrumb-item-default-no-shadow" tabindex="0">
+        <span class="boldcrumb">Gender:</span>
+        <span class="breadcrumb-content">{{this.sex}}</span>
+    </div>
+    {{/if}}
+{{/each}}

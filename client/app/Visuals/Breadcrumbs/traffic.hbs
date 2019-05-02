@@ -1,0 +1,15 @@
+{{#each traffic}}
+    {{#if this.showRemove}}
+    <div class="breadcrumb-item" tabindex="0">
+        <span class="boldcrumb">Traffic:</span>
+        <span>{{this.traffic}}</span>
+        <button  aria-label="remove filter {{this.traffic}}" class="remove-breadcrumb" data-traffic-name="{{this.traffic}}" data-traffic-id="{{this.trafficId}}" data-breadcrumb-type="traffic" tabindex="0">
+        x</button>
+    </div>
+    {{else}}
+    <div class="breadcrumb-item-no-shadow breadcrumb-item-default-no-shadow" tabindex="0">
+        <span class="boldcrumb">Traffic:</span>
+        <span class="breadcrumb-content">{{this.traffic}}</span>
+    </div>
+    {{/if}}
+{{/each}}

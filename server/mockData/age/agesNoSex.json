@@ -1,0 +1,31 @@
+{
+  "responseCode": [
+    "1",
+    {
+      "responseData": [
+        {
+          "numstratum": 5,
+          "PSU": 90,
+          "wt_c": 7673.38754,
+          "maxstratum": 5,
+          "mean": 4.16666666667,
+          "twcnt": 0,
+          "records": 69768,
+          "twcnt1": 0,
+          "sumsq": 58880876.339,
+          "tsumsq": 0,
+          "n": 4.16666666667,
+          "var": 26140542.0437,
+          "totvar": 208557504915,
+          "injuries": 4081681,
+          "stderr": 456681,
+          "cv": 0.112,
+          "pop": 320896618,
+          "rate": 1271.9612717,
+          "upper": 4976775,
+          "lower": 3186586
+        }
+      ]
+    }
+  ]
+}

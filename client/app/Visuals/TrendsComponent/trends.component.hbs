@@ -1,0 +1,27 @@
+<div class="template-container selected-years-container">
+    <div class="template-wrapper">
+        <div id="nonFatalStatRibbon">
+            {{> ../statsRibbon.component.hbs}}
+        </div>
+        {{!-- <button id="advancedStatsBtn" role="button" class="btn-filter-data" tabindex="0">SHOW ADVANCED STATISTICS</button> --}}
+        <div id="nonFatalAdvancedStatRibbon">
+            {{> ../advancedStats.component.hbs}}
+        </div>
+        {{!-- <div class="card_legend-container">
+            <p>Data Source: NEISS All Injury Program operated by the Consumer Product Safety Commission for numbers of
+                injuries. Bureau of Census for population estimates.</p>
+            <p>Users can filter data by clicking on a chart or by selecting Filters from the Filter Data button when
+                using keyboard navigation.</p>
+        </div> --}}
+
+        {{> ../TrendsComponent/TreemapComponent/treemap.component}}
+        {{> ../TrendsComponent/DispositionComponent/disposition.component}}
+        {{> ../TrendsComponent/GenderComponent/gender.component}}
+        {{> ../TrendsComponent/AgeComponent/ageTrendComponent}}
+        {{> ../TrendsComponent/RaceComponent/raceTrendComponent}}
+    </div>
+</div>
+{{!-- Download Modal for every Application --}}
+
+<div id="modal-nonFatalDownloadDataModal" role="dialog" data-backdrop="static" class="modal fade"></div>
+<div id="modal-nonFalaFilterDataModal" role="dialog" data-backdrop="static" class="modal fade"></div>

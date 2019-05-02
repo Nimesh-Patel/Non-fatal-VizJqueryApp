@@ -1,0 +1,27 @@
+<div class="template-wrapper">
+    <div class="breadcrumb-nav">
+        <div class="home-button-container">
+             <a href="/landing" id="compare-deaths-home-btn" class="btn btn-primary back-breadcrumb" data-navigo>
+            NONFATAL INJURY REPORTS HOME
+            </a>
+
+        </div>
+        <div class="advancedStats-button-container">
+            <button id="advancedStatsBtn" role="button" class="btn-filter-data" tabindex="0">SHOW ADVANCED STATISTICS</button>
+        </div>
+       
+
+    </div>
+</div>
+<div class="visuals_template-nav">
+    {{!-- <div class="template-heading">
+        WISQARS NONFATAL INJURY REPORTS
+    </div> --}}
+    <div class="tab-nav-container" id="nonFatalTabNavigation">
+        {{!-- <button class="tab-nav-button active-tab-nav-button" id="selected-years-tab" data-tab-id="SelectedYears">
+            SELECTED YEARS</button>
+        <button class="tab-nav-button" id="trends-tab" data-tab-id="Trends"> TRENDS </button> --}}
+    </div>
+</div>
+<div id="visualsTemplate"></div>
+{{> ../../app.ResetFilters.hbs}}

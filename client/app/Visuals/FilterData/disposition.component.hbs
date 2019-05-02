@@ -1,0 +1,35 @@
+<form class="boxDiv">
+    <legend class="mech-legend">Disposition </legend>
+    <fieldset class="mech-results" id="filter-data-disposition">
+        <div class="filter-data-text-container">
+            <h4>Where the injured person went when released from emergency department</h4>
+        </div>
+                <div class="">
+                    <label class="filter-data-mech-label">Make a Selection:</label>
+                    <div class="mech-inner-container">
+                        <input aria-label="All Cases"  type="checkbox" class="" id="disp-0" name="nf-disposition" data-disposition-name="All Cases" data-disp-id="0" value="All Cases" tabindex="0" checked="checked">
+                        <label for="disp-0">All Cases</label>
+                   </div>
+                    <div class="mech-inner-container">
+                        <input aria-label="Treated and Released" class="selectedDisp-Id" type="checkbox" id="disp-1" name="nf-disposition" data-disposition-name="Treated and Released" data-disp-id="1" value="Treated and Released" tabindex="0" >
+                        <label for="disp-1">Treated and Released</label>
+                   </div>
+                    <div class="mech-inner-container">
+                        <input aria-label="Transferred" class="selectedDisp-Id" type="checkbox" id="disp-2" name="nf-disposition" data-disposition-name="Transferred" data-disp-id="2" value="Transferred" tabindex="0" >
+                        <label for="disp-2">Transferred</label>
+                   </div>
+                    {{!-- <div class="mech-inner-container">
+                        <input aria-label="Transferred or Hospitalized" class="selectedDisp-Id" type="checkbox" id="disp-3" name="nf-disposition" data-disposition-name="Transferred or Hospitalized" data-disp-id="3" value="Transferred or Hospitalized" tabindex="0">
+                        <label for="disp-3">Transferred or Hospitalized</label>
+                   </div> --}}
+                   <div class="mech-inner-container">
+                        <input aria-label="Hospitalized" class="selectedDisp-Id" type="checkbox" id="disp-4" name="nf-disposition" data-disposition-name="Hospitalized" data-disp-id="4" value="Hospitalized" tabindex="0">
+                        <label for="disp-4">Hospitalized</label>
+                   </div>
+                   <div class="mech-inner-container">
+                        <input aria-label="Observed/Left AMA/Unknown" class="selectedDisp-Id" type="checkbox" id="disp-5" name="nf-disposition" data-disposition-name="Observed/Left AMA/Unknown" data-disp-id="5" value="Observed/Left AMA/Unknown" tabindex="0">
+                        <label for="disp-5">Observed/Left AMA/Unknown</label>
+                   </div>
+                </div>
+    </fieldset>
+</form>

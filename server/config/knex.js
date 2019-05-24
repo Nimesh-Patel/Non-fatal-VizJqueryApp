@@ -9,9 +9,9 @@ let configs = {
             port: proxy.selectedProxy.SERVER_PORT,
             connection: {
                 host: '10.25.44.41',
-                user: 'CDC_RW',
+                user: 'userID',
                 password: 'Vizstudio12',
-                database: 'CDC',
+                database: 'DB_Name',
             }
         }
 };

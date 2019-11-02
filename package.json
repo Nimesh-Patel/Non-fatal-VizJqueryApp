@@ -69,7 +69,7 @@
     "jquery.browser": "^0.1.0",
     "js2xmlparser": "^3.0.0",
     "jshint": "^2.9.5",
-    "knex": "^0.14.6",
+    "knex": "^0.20.1",
     "lodash": "^4.17.10",
     "moment": "^2.22.1",
     "mssql": "^4.1.0",
